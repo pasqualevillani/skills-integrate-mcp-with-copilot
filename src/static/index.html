@@ -13,6 +13,10 @@
     </header>
 
     <main>
+      <section id="map-section">
+        <h3>Activities Map</h3>
+        <div id="map" style="width:100%;height:400px;margin-bottom:24px;"></div>
+      </section>
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
@@ -46,5 +50,7 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"></script>
   </body>
 </html>
